@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    header p {
+        font-size: 1.4em;
+    }
+
+    .icon, #burguer {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        margin-left: 15px;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+    #menu a {
+        border-radius: 5px;
+    }
+
+    main {
+        max-width: 70%;
+    }
+
+    .historia h2 {
+        font-size: 1.5em;
+    }
+
+    .versao h2 {
+        font-size: 1.2em;
+    }
+
+    .surge h2 {
+        font-size: 1.3em;
+    }
+
+    .aside-flex {
+        justify-content: space-around;
+    }
+}
